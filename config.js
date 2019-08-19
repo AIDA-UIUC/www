@@ -1,36 +1,31 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter directive', // <title>
+  siteTitle: 'ADSA UIUC', // <title>
   manifestName: 'directive',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/images/adsa-logo-notext.png',
   pathPrefix: `/gatsby-starter-directive/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Hi! I am Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'The Association of Data Science and Analytics',
+  subHeading: 'We are the premier data science student organization at the University of Illinois',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://github.com/adsa-uiuc',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/adsauiuc',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:bailey.tincher@btin.io',
     },
   ],
 };

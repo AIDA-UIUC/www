@@ -2,13 +2,15 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import practicalTeamImage from '../assets/images/practical-team.jpg';
+import neuralNetImage from '../assets/images/neural_network.jpeg';
+import sweImage from '../assets/images/software-engineer.jpg';
+
+import Content from '../components/Content';
 
 const IndexPage = () => (
   <Layout>
@@ -17,70 +19,42 @@ const IndexPage = () => (
     <div id="main">
       <header className="major container medium">
         <h2>
-          We conduct experiments that
+          Inspiring students from any
           <br />
-          may or may not seriously
+          background to reshape their 
           <br />
-          break the universe
+          perspective with data-driven
+          <br />
+          decision making
         </h2>
       </header>
 
       <div className="box alt container">
-        <section className="feature left">
-          <a href="/#" className="image icon fa-signal">
-            <img src={pic1} alt="" />
-          </a>
-          <div className="content">
-            <h3>The First Thing</h3>
-            <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
-            </p>
-          </div>
-        </section>
-        <section className="feature right">
-          <a href="/#" className="image icon fa-code">
-            <img src={pic2} alt="" />
-          </a>
-          <div className="content">
-            <h3>The Second Thing</h3>
-            <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
-            </p>
-          </div>
-        </section>
-        <section className="feature left">
-          <a href="/#" className="image icon fa-mobile">
-            <img src={pic3} alt="" />
-          </a>
-          <div className="content">
-            <h3>The Third Thing</h3>
-            <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
-            </p>
-          </div>
-        </section>
+        <Content 
+          side="left"
+          link="/#"
+          icon="fa-signal"
+          image={practicalTeamImage}
+          title="Practical Application Workshops"
+          body={`Add body here`}
+        />
+        <Content 
+          side="right"
+          link="/#"
+          icon="fa-cogs"
+          image={neuralNetImage}
+          title="Machine Learning Workshops"
+          body={`Add body here`}
+        />
+        <Content 
+          side="left"
+          link="/#"
+          icon="fa-code"
+          image={sweImage}
+          title="Supported Team Projects"
+          body={`Add body here`}
+        />
       </div>
-
-      <footer className="major container medium">
-        <h3>Get shady with this starter</h3>
-        <p>
-          There is also elements page in this template. Click below button to
-          check
-        </p>
-        <ul className="actions special">
-          <li>
-            <Link to="/Elements" className="button">
-              View Elements
-            </Link>
-          </li>
-        </ul>
-      </footer>
     </div>
     <Footer />
   </Layout>

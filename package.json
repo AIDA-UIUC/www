@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-directive",
+  "name": "adsa-uiuc-www",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Directive by HTML5 UP",
+  "description": "Homepage for the UIUC ADSA chapter",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-directive.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Bailey Tincher",
+    "email": "tincher2@illinois.edu"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
