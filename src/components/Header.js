@@ -1,7 +1,7 @@
 import React from 'react';
 import config from '../../config';
 
-import adsaLogoNotext from '../assets/images/adsa-logo-notext.png';
+import adsaLogoNotext from '../pages/images/adsa-logo-notext.png';
 
 export default function Header() {
   return (

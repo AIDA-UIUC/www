@@ -6,9 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/images/adsa-logo-notext.png',
-  pathPrefix: `/gatsby-starter-directive/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'The Association of Data Science and Analytics',
+  manifestIcon: './src/assets/images/adsa-logo-notext.png',heading: 'The Association of Data Science and Analytics',
   subHeading: 'We are the premier data science student organization at the University of Illinois',
   // social
   socialLinks: [

@@ -6,9 +6,9 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import practicalTeamImage from '../assets/images/practical-team.jpg';
-import neuralNetImage from '../assets/images/neural_network.jpeg';
-import sweImage from '../assets/images/software-engineer.jpg';
+import practicalTeamImage from './images/practical-team.jpg';
+import neuralNetImage from './images/neural_network.jpeg';
+import sweImage from './images/software-engineer.jpg';
 
 import Content from '../components/Content';
 
@@ -18,15 +18,7 @@ const IndexPage = () => (
 
     <div id="main">
       <header className="major container medium">
-        <h2>
-          Inspiring students from any
-          <br />
-          background to reshape their 
-          <br />
-          perspective with data-driven
-          <br />
-          decision making
-        </h2>
+        <h2>Inspiring students from any background to reshape  their perspective with data-driven decision making</h2>
       </header>
 
       <div className="box alt container">
