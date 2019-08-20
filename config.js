@@ -6,8 +6,10 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: './src/assets/images/adsa-logo-notext.png',heading: 'The Association of Data Science and Analytics',
-  subHeading: 'We are the premier data science student organization at the University of Illinois',
+  manifestIcon: './src/assets/images/adsa-logo-notext.png',
+  heading: 'The Association of Data Science and Analytics',
+  subHeading:
+    'We are the premier data science student organization at the University of Illinois',
   // social
   socialLinks: [
     {

@@ -12,6 +12,6 @@ function Content(props) {
       </div>
     </section>
   );
-};
+}
 
 export default Content;

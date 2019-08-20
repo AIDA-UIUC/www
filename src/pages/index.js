@@ -18,11 +18,14 @@ const IndexPage = () => (
 
     <div id="main">
       <header className="major container medium">
-        <h2>Inspiring students from any background to reshape  their perspective with data-driven decision making</h2>
+        <h2>
+          Inspiring students from any background to reshape their perspective
+          with data-driven decision making
+        </h2>
       </header>
 
       <div className="box alt container">
-        <Content 
+        <Content
           side="left"
           link="/#"
           icon="fa-signal"
@@ -30,7 +33,7 @@ const IndexPage = () => (
           title="Practical Application Workshops"
           body={`Add body here`}
         />
-        <Content 
+        <Content
           side="right"
           link="/#"
           icon="fa-cogs"
@@ -38,7 +41,7 @@ const IndexPage = () => (
           title="Machine Learning Workshops"
           body={`Add body here`}
         />
-        <Content 
+        <Content
           side="left"
           link="/#"
           icon="fa-code"
