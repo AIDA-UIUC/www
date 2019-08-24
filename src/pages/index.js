@@ -20,7 +20,7 @@ const IndexPage = () => (
       <header className="major container medium">
         <h2>
           Inspiring students from any background to reshape their perspective
-          with data-driven decision making
+          with data-driven decision making.
         </h2>
       </header>
 
