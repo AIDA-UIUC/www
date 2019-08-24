@@ -33,7 +33,7 @@
     "deploy": "npm run clean && gatsby build && gh-pages -d public -b master",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
-    "format": "prettier --write '**/*.js'",
+    "format": "prettier --write 'src/**/*.js'",
     "commit": "npm run format && git add . && git commit && git push"
   },
   "devDependencies": {
