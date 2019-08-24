@@ -1,16 +1,17 @@
 {
   "name": "adsa-uiuc-www",
   "version": "0.0.1",
-  "description": "Homepage for the UIUC ADSA chapter",
+  "description": "Homepage for the Association of Data Science and Analytics at the University of Illinois",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-directive.git"
+    "url": "git+https://github.com/adsa-uiuc/www"
   },
   "author": {
     "name": "Bailey Tincher",
     "email": "tincher2@illinois.edu"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "gatsby": "^2.4.3",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.1.0",
@@ -26,13 +27,14 @@
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
+    "start": "npm run develop",
     "develop": "gatsby develop",
     "build": "npm run clean && gatsby build",
     "deploy": "npm run clean && gatsby build && gh-pages -d public -b master",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "npm run format && git add . && git commit && git push"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
@@ -40,13 +42,13 @@
     "rimraf": "^2.6.3"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-directive"
+    "adsa",
+    "data science",
+    "association of data science and analytics"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-directive/issues"
+    "url": "https://github.com/adsa-uiuc/www/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-directive#readme"
+  "homepage": "https://github.com/adsa-uiuc/www"
 }

@@ -3,8 +3,25 @@ import React, { useState } from 'react';
 const useForm = () => {
   const [values, setValues] = useState({});
 
-  const handleSubmit = event => {
-    alert(`Message sent. ${JSON.stringify(values)}`);
+  const handleSubmit = async event => {
+    const axios = require('axios');
+
+    try {
+      const res = await axios.post(
+        'https://al210gps9i.execute-api.us-east-1.amazonaws.com/dev/message',
+        JSON.stringify(values)
+      );
+      console.log(res);
+
+      await alert("Message sent! We'll be in touch shortly.");
+    } catch (err) {
+      console.log(err);
+      await alert(
+        'Internal server error. Could not send your message. Please message us on Facebook at facebook.com/adsa-uiuc.'
+      );
+    }
+
+    setValues({});
   };
 
   const handleChange = event => {
@@ -26,7 +43,7 @@ export default function ContactForm() {
   const { handleChange, handleSubmit, values } = useForm();
 
   return (
-    <form method="post" onSubmit={handleSubmit}>
+    <form method="post" onSubmit={() => false}>
       <div className="row">
         <div className="col-6 col-12-mobilep">
           <input
@@ -58,7 +75,11 @@ export default function ContactForm() {
         <div className="col-12">
           <ul className="actions special">
             <li>
-              <input type="submit" value="Send Message" />
+              <input
+                type="button"
+                value="Send message"
+                onClick={handleSubmit}
+              />
             </li>
           </ul>
         </div>

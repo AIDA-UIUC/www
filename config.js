@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'ADSA UIUC', // <title>
-  manifestName: 'directive',
+  siteTitle: 'Data Science @ Illinois', // <title>
+  manifestName: 'adsa',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
