@@ -25,7 +25,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:bailey.tincher@btin.io',
+      url: 'mailto:general.adsa@gmail.com',
     },
   ],
 };
