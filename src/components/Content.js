@@ -8,6 +8,7 @@ function Content(props) {
       </a>
       <div className="content">
         <h3>{props.title}</h3>
+        <h4 style={{ color: 'orange' }}>{props.meetingTime}</h4>
         <p>{props.body}</p>
       </div>
     </section>

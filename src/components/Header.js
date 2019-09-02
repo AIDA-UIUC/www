@@ -11,7 +11,14 @@ export default function Header() {
       <p>{config.subHeading}</p>
       <br />
       <h4 style={{ color: 'orange' }}>
-        First general meeting September 1st at 2:30 p.m. in Siebel 1109
+        <s>First general meeting September 1st at 2:30 p.m. in Siebel 1109</s>
+        <br />
+        <a
+          href="https://docs.google.com/presentation/d/1OAnqFassIOPrNkTxVqc5Uzc5mJE4PPvHhsi_xCMwoQg/edit#slide=id.p"
+          alt="First meeting slides"
+        >
+          See the info night slides here
+        </a>
       </h4>
     </div>
   );
