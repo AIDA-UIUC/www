@@ -6,7 +6,7 @@ function Content(props) {
       <a href={props.link} className={`image icon ${props.icon}`}>
         <img src={props.image} className="image fit" alt="" />
       </a>
-      <div className="content">
+      <div className="content" style={{ marginTop: `-45px` }}>
         <h3>{props.title}</h3>
         <h4 style={{ color: 'orange' }}>{props.meetingTime}</h4>
         <p>{props.body}</p>
