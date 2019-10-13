@@ -9,16 +9,8 @@ export default function Header() {
       <img src={adsaLogoNotext} alt="Siebel Center" />
       <h1>{config.heading}</h1>
       <p>{config.subHeading}</p>
-      <br />
       <h4 style={{ color: 'orange' }}>
-        <s>First general meeting September 1st at 2:30 p.m. in Siebel 1109</s>
-        <br />
-        <a
-          href="https://docs.google.com/presentation/d/1OAnqFassIOPrNkTxVqc5Uzc5mJE4PPvHhsi_xCMwoQg/edit#slide=id.p"
-          alt="First meeting slides"
-        >
-          See the info night slides here
-        </a>
+        Look out for events on our <a href="https://facebook.com/adsauiuc">Facebook</a> page!
       </h4>
     </div>
   );
