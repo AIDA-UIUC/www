@@ -1,13 +1,13 @@
 module.exports = {
   siteTitle : 'Data Science @ Illinois', // <title>
-  manifestName : 'adsa',
+  manifestName : 'aida',
   manifestShortName : 'Landing', // max 12 characters
   manifestStartUrl : '/',
   manifestBackgroundColor : '#663399',
   manifestThemeColor : '#663399',
   manifestDisplay : 'standalone',
   manifestIcon : './src/assets/images/adsa-logo-notext.png',
-  heading : 'The Association of Data Science and Analytics',
+  heading : 'UIUC ACM Special Interest Group for Artificial Intelligence and Data Analytics',
   subHeading :
       'We are the premier data science student organization at the University of Illinois',
   // social
@@ -15,7 +15,7 @@ module.exports = {
     {
       icon : 'fa-github',
       name : 'Github',
-      url : 'https://github.com/adsa-uiuc',
+      url : 'https://github.com/aida-uiuc',
     },
     {
       icon : 'fa-facebook',

@@ -30,7 +30,7 @@ const IndexPage = () => (
           link="https://github.com/ADSA-UIUC/BeginnerWorkshopsSP19"
           icon="fa-signal"
           image={practicalTeamImage}
-          title="Practical Application Workshops"
+          title="Data Analytics Workshops"
           meetingTime="Workshops TBA on our Facebook"
           body={`Teaching foundational data science topics and Python tools in individualized sessions. These sessions are designed to be accessible to students from any background, hands-on, and independent from each other. Only come to workshops you are interested in!`}
         />
@@ -39,7 +39,7 @@ const IndexPage = () => (
           link="https://www.github.com/adsa-uiuc/advanced-workshops"
           icon="fa-cogs"
           image={neuralNetImage}
-          title="Machine Learning Workshops"
+          title="Artificial Intelligence Workshops"
           meetingTime="Workshops TBA on our Facebook"
           body={`Targeted towards experienced programmers and those seeking to gain insight into the programming of machine learning algorithms. These sessions are designed to challenge you on both the theory and implementation.`}
         />

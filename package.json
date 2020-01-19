@@ -1,29 +1,29 @@
 {
-  "name": "adsa-uiuc-www",
+  "name": "aida-uiuc-www",
   "version": "0.0.1",
-  "description": "Homepage for the Association of Data Science and Analytics at the University of Illinois",
+  "description": "Homepage for SIG Artificial Intelligence and Data Analytics at the University of Illinois",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adsa-uiuc/www"
+    "url": "git+https://github.com/aida-uiuc/www"
   },
   "author": {
     "name": "Bailey Tincher",
     "email": "tincher2@illinois.edu"
   },
   "dependencies": {
-    "axios": "^0.19.0",
-    "gatsby": "^2.4.3",
-    "gatsby-plugin-manifest": "^2.1.1",
-    "gatsby-plugin-offline": "^2.1.0",
-    "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-plugin-sass": "^2.0.11",
-    "gatsby-source-filesystem": "^2.1.9",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "axios": "^0.19.1",
+    "gatsby": "^2.18.25",
+    "gatsby-plugin-manifest": "^2.2.37",
+    "gatsby-plugin-offline": "^3.0.32",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sass": "^2.1.27",
+    "gatsby-source-filesystem": "^2.1.46",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "react-images": "^0.5.19",
-    "react-scrollspy": "^3.4.0",
+    "react-images": "^1.1.0-beta.2",
+    "react-scrollspy": "^3.4.2",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
@@ -37,18 +37,20 @@
     "commit": "npm run format && git add . && git commit && git push"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
-    "prettier": "^1.17.0",
-    "rimraf": "^2.6.3"
+    "gh-pages": "^2.2.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0"
   },
   "keywords": [
     "adsa",
+    "aida",
+    "artificial intelligence",
     "data science",
     "association of data science and analytics"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adsa-uiuc/www/issues"
+    "url": "https://github.com/aida-uiuc/www/issues"
   },
-  "homepage": "https://github.com/adsa-uiuc/www"
+  "homepage": "https://github.com/aida-uiuc/www"
 }
