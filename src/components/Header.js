@@ -12,8 +12,8 @@ export default function Header() {
       </h1>
       <p>{config.subHeading}</p>
       <h4 style={{ color: 'orange' }}>
-        Look out for events on our{' '}
-        <a href="https://facebook.com/adsauiuc">Facebook</a> page!
+        {/* Look out for events on our{' '}<a href="https://facebook.com/datauiuc" target="_blank">Facebook</a> page! */}
+        First info session this Sunday 01/26 from 1-2pm in Siebel 1105
       </h4>
     </div>
   );
