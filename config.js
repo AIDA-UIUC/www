@@ -20,12 +20,12 @@ module.exports = {
     {
       icon : 'fa-facebook',
       name : 'Facebook',
-      url : 'https://facebook.com/adsauiuc',
+      url : 'https://facebook.com/aidauiuc',
     },
     {
       icon : 'fa-envelope-o',
       name : 'Email',
-      url : 'mailto:uiuc.adsa@gmail.com',
+      url : 'mailto:sig-aida-request@lists.illinois.edu',
     },
   ],
 };
