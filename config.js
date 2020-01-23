@@ -27,5 +27,10 @@ module.exports = {
       name : 'Email',
       url : 'mailto:sig-aida-request@lists.illinois.edu',
     },
+		{
+			icon : 'fa-slack',
+			name : 'Slack',
+			url : 'https://acm-uiuc.slack.com',
+		},
   ],
 };
