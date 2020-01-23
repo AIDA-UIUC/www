@@ -37,6 +37,7 @@
     "commit": "npm run format && git add . && git commit && git push"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
     "gh-pages": "^2.2.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0"
