@@ -20,7 +20,7 @@ module.exports = {
     {
       icon : 'fa-facebook',
       name : 'Facebook',
-      url : 'https://facebook.com/aidauiuc',
+      url : 'https://facebook.com/datauiuc',
     },
     {
       icon : 'fa-envelope-o',
