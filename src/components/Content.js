@@ -11,7 +11,7 @@ function Content(props) {
       >
         <img src={props.image} className="image fit" alt="" />
       </a>
-      <div className="content" style={{ marginTop: `-45px` }}>
+      <div className="content">
         <h3>{props.title}</h3>
         <h4 style={{ color: 'orange' }}>{props.meetingTime}</h4>
         <p>{props.body}</p>

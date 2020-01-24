@@ -879,7 +879,8 @@
 
 		.content {
 			display: inline-block;
-			padding: 3.5em;
+			padding-left: 3.5em;
+			padding-right: 3.5em;
 			vertical-align: middle;
 			width: 48%;
 
@@ -1256,7 +1257,8 @@
 				height: 18em;
 
 				.content {
-					padding: 2.5em;
+					padding-left: 2.5em;
+					padding-right: 2.5em;
 				}
 			}
 

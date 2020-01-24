@@ -7,7 +7,8 @@ module.exports = {
   manifestThemeColor : '#663399',
   manifestDisplay : 'standalone',
   manifestIcon : './src/assets/images/adsa-logo-notext.png',
-  heading : 'UIUC ACM Special Interest Group for Artificial Intelligence and Data Analytics',
+  heading :
+      'UIUC ACM Special Interest Group for Artificial Intelligence and Data Analytics',
   subHeading :
       'We are the premier data science student organization at the University of Illinois',
   // social
@@ -26,6 +27,11 @@ module.exports = {
       icon : 'fa-envelope-o',
       name : 'Email',
       url : 'mailto:sig-aida-request@lists.illinois.edu',
+    },
+    {
+      icon : 'fa-slack',
+      name : 'Slack',
+      url : 'https://acm-uiuc.slack.com',
     },
   ],
 };
