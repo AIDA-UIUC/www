@@ -16,7 +16,7 @@ export default function Header() {
       <h4 style={{
     color: 'orange' }}>
         {/* Look out for events on our{' '}<a href="https://facebook.com/datauiuc" target="_blank">Facebook</a> page! */}
-        Look out for events on our mailing list or Slack channel!
+        Look out for events on our mailing list or Slack channel! :D
       </h4>
     </div>
   );
