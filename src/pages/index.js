@@ -32,7 +32,7 @@ const IndexPage = () => (
           icon="fa-signal"
           image={practicalTeamImage}
           title="Data Analytics Workshops"
-          meetingTime="2-3pm Sundays in Siebel 1105"
+          meetingTime="TBD"
           body={`Teaching foundational data science topics and Python tools in individualized sessions. These sessions are designed to be accessible to students from any background, hands-on, and independent from each other.`}
         />
         <Content
@@ -41,7 +41,7 @@ const IndexPage = () => (
           icon="fa-code"
           image={sweImage}
           title="Supported Team Projects"
-          meetingTime="3-4pm Sundays in Siebel 1105"
+          meetingTime="TBD"
           body={`Open-ended, real-world experience for students interested in data science. Past projects have included mental health sentiment analysis, meme and tweet generators, and much more. Check them out on our GitHub!`}
         />
         <Content
@@ -50,7 +50,7 @@ const IndexPage = () => (
           icon="fa-cogs"
           image={neuralNetImage}
           title="Artificial Intelligence Workshops"
-          meetingTime="5-7pm Wednesdays in Siebel 1105"
+          meetingTime="TBD"
           body={`Targeted towards experienced programmers and those seeking to gain insight into the algorithms behind AI/ML. These sessions are designed to challenge you on both the theory and implementation.`}
         />
         <Content
@@ -59,7 +59,7 @@ const IndexPage = () => (
           icon="fa-book"
           image={resImage}
           title="AI Research Discussion Group"
-          meetingTime="5-7pm Thurdays in Siebel 1105"
+          meetingTime="TBD"
           body={`Come together to discuss the latest papers and developments in data science.`}
         />
       </div>
