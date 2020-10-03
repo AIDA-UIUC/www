@@ -37,7 +37,7 @@ const IndexPage = () => (
         />
         <Content
           side="right"
-          link="https://www.github.com/aida-uiuc"
+          link="https://drive.google.com/drive/folders/1bLEPZ4z6V1Nl_YR5gWfgbDQCcC4D6hjH?usp=sharing"
           icon="fa-code"
           image={sweImage}
           title="Supported Team Projects"
@@ -46,7 +46,7 @@ const IndexPage = () => (
         />
         <Content
           side="left"
-          link=""
+          link="https://github.com/AIDA-UIUC/ML-Workshops"
           icon="fa-cogs"
           image={neuralNetImage}
           title="Artificial Intelligence Workshops"
