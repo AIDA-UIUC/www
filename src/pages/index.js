@@ -33,6 +33,7 @@ const IndexPage = () => (
           image={practicalTeamImage}
           title="Data Analytics Workshops"
           meetingTime="TBD"
+          zoom = "https://illinois.zoom.us/s/95136347909"
           body={`Teaching foundational data science topics and Python tools in individualized sessions. These sessions are designed to be accessible to students from any background, hands-on, and independent from each other.`}
         />
         <Content
@@ -42,6 +43,7 @@ const IndexPage = () => (
           image={sweImage}
           title="Supported Team Projects"
           meetingTime="TBD"
+          zoom = "https://illinois.zoom.us/s/92699867018"
           body={`Open-ended, real-world experience for students interested in data science. Past projects have included mental health sentiment analysis, meme and tweet generators, and much more. Check them out on our GitHub!`}
         />
         <Content
@@ -51,6 +53,7 @@ const IndexPage = () => (
           image={neuralNetImage}
           title="Artificial Intelligence Workshops"
           meetingTime="TBD"
+          zoom = "https://illinois.zoom.us/j/97070715493"
           body={`Targeted towards experienced programmers and those seeking to gain insight into the algorithms behind AI/ML. These sessions are designed to challenge you on both the theory and implementation.`}
         />
         <Content
@@ -60,6 +63,7 @@ const IndexPage = () => (
           image={resImage}
           title="AI Research Discussion Group"
           meetingTime="TBD"
+          zoom = "https://illinois.zoom.us/j/96942933383"
           body={`Come together to discuss the latest papers and developments in data science.`}
         />
       </div>
