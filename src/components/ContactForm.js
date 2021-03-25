@@ -17,7 +17,7 @@ const useForm = () => {
     } catch (err) {
       console.log(err);
       await alert(
-        'Internal server error. Could not send your message. Please message us on Facebook at facebook.com/datauiuc.'
+        'Internal server error. Could not send your message. Please message us on Discord at https://discord.gg/GEMh8umbe7.'
       );
     }
 

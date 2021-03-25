@@ -15,8 +15,7 @@ export default function Header() {
       <p>{config.subHeading}</p>
       <h4 style={{
     color: 'orange' }}>
-        {/* Look out for events on our{' '}<a href="https://facebook.com/datauiuc" target="_blank">Facebook</a> page! */}
-        Look out for events on our mailing list or Slack channel! :D
+        Look out for events on our Google Calendar (below) and join our Discord <a href="https://discord.gg/GEMh8umbe7" rel="noreferrer" target="_blank">here</a>!
       </h4>
     </div>
   );

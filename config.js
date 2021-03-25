@@ -14,24 +14,24 @@ module.exports = {
   // social
   socialLinks : [
     {
-      icon : 'fa-github',
+      icon : 'fab fa-github',
       name : 'Github',
       url : 'https://github.com/aida-uiuc',
     },
     {
-      icon : 'fa-facebook',
+      icon : 'fab fa-facebook',
       name : 'Facebook',
       url : 'https://facebook.com/datauiuc',
     },
     {
-      icon : 'fa-envelope-o',
+      icon : 'fa fa-envelope',
       name : 'Email',
       url : 'mailto:sig-aida-request@lists.illinois.edu',
     },
     {
-      icon : 'fa-slack',
-      name : 'Slack',
-      url : 'https://acm-uiuc.slack.com',
+      icon : 'fab fa-discord',
+      name : 'Discord',
+      url : 'https://discord.gg/GEMh8umbe7',
     },
   ],
 };
